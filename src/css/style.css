@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body h1.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+}
+
+body fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+body input.title {
+    font-weight: bold;
+    font-size: 22px;
+    height: 50px;
+    padding: 0 6px;
+}
+
+.textArea {
+    padding: 10px 6px; 
+    font-size: 16px;
+    height: 200px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+body fieldset button {
+    margin: 0 auto;
+}
+
+body fieldset h1,
+body h1.title {
+    font-size: 24px;
+    background-color: rgb(128, 128, 128, 0.35);
+}
+
+.posts div, body h1.title  {
+    border: 1px black solid;
+
+}
+
+.posts div {
+    min-height: 125px;
+    margin-bottom: 15px;
+}
+
+.posts h1, p{
+    margin: 0;
+    padding: 15px;
+}
