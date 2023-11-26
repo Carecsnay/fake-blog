@@ -2,55 +2,62 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body h1.title {
+.home {
     display: flex;
     align-items: center;
     justify-content: center;
 
     height: 40px;
+    font-size: 24px;
+    background-color: rgb(128, 128, 128, 0.35);
+
 }
 
-body fieldset {
+body fieldset div {
     display: flex;
     flex-direction: column;
 }
 
-body input.title {
+.title {
     font-weight: bold;
-    font-size: 22px;
-    height: 50px;
+    font-size: 17.5px;
+    height: 45px;
     padding: 0 6px;
 }
 
 .textArea {
-    padding: 10px 6px; 
+    padding: 10px 6px;
     font-size: 16px;
     height: 200px;
     margin-bottom: 10px;
     resize: none;
 }
 
-body fieldset button {
+.insertBnt {
     margin: 0 auto;
 }
 
-body fieldset h1,
-body h1.title {
-    font-size: 24px;
-    background-color: rgb(128, 128, 128, 0.35);
-}
-
-.posts div, body h1.title  {
+.posts div,
+.home {
     border: 1px black solid;
-
 }
 
 .posts div {
     min-height: 125px;
     margin-bottom: 15px;
+    padding: 0;
+    background-color: rgb(128, 128, 128, 0.15);
+
 }
 
-.posts h1, p{
+.posts h1 {
+    background-color: rgb(128, 128, 128, 0.35);
+    font-size: 21px;
+
+}
+
+.posts h1,
+p {
     margin: 0;
     padding: 15px;
 }

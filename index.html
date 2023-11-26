@@ -8,19 +8,19 @@
     <link rel="shortcut icon" href="./src/icon/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <h1 class="title">Fake Blog</h1>
+    <h1 class="home">Fake Blog</h1>
     <fieldset>
         <legend>New Post</legend>
-        <input name='title' type="text" class="title" placeholder="Title Post">
-        <textarea name='body' class="textArea"></textarea>
-        <button class="insertBnt">Send new post</button>
+        <div>
+            <input class="title" name='title' type="text" placeholder="Title Post">
+            <textarea class="textArea" name='body' ></textarea>
+            <button class="insertBnt">Send new post</button>
+        </div>
     </fieldset>
     <fieldset>
         <legend>Recent Posts</legend>
         <div class="posts"></div>
-       
     </fieldset>
-
     <script type="module" src="./src/script/main.js"></script>
 </body>
 </html>
